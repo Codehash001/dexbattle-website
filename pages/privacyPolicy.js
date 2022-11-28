@@ -1,11 +1,12 @@
 export default function Privacy() {
 
     return(
-        <div className="w-screen mx-16 flex flex-col items-center overflow-hidden">
+        <div className="w-screen flex flex-col items-center overflow-hidden">
+            <div className=" mx-16 my-4">
             <h1 className="text-blue-400 font-Kanit text-3xl my-6">
                 DB Gaming Privacy Policy
             </h1>
-            <div className='overfolw-hidden'>
+            <div >
             <p className="text-white text-2xl">
                 <span className="font-semibold">LAST UPDATED: November 2022</span>
                 <br/>
@@ -39,6 +40,7 @@ export default function Privacy() {
                 <br/>
 
             </p>
+            </div>
             </div>
         </div>
     )
