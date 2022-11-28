@@ -19,15 +19,15 @@ useEffect(() => {
           src="/webimage2.png"
           className="w-screen object-cover"
         />
-        <div className='mt-6 left-5 absolute fex flex-col'>
+        <div className='mt-6 left-[40px] absolute fex flex-col'>
 
           <div className='flex flex-row items-center text-start'>
             <div className='mr-6'>
                 <h1 className='font-Archivo text-[60px] text-white uppercase'> Make your own story <br/> in</h1>
-                <h1 className='font-Archivo text-[75px] text-brand-yellow'> DEXBATTLE</h1>
+                <span className='font-Archivo text-[75px] text-brand-yellow'> DEXBATTLE</span>
             </div>
 
-            <div className='w-[400px] h-[400px]'>
+            <div className='w-[500px] h-[600px]'>
               <img src='webimage1.png'
               className='object-cover'/>
             </div>
