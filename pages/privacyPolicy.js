@@ -45,14 +45,14 @@ export default function Privacy() {
                 <span className="font-semibold">Collection of Personal Information</span>
                 <br/>
                 <br/>
-                <ul>
+                <ol>
 <li>We and our service providers collect Personal Information in a variety of ways, including:</li>
 <li>Through the Services.</li>
 <li>We collect Personal Information through the Services, for example, when you register an account to access the Services, complete a survey, contact customer support, or make a purchase on our online marketplace.</li>
 <li>From Other Sources.</li>
-<li>	We receive your Personal Information from other sources, for example, crypto wallet providers, when they share the information with us.</li>
+<li>We receive your Personal Information from other sources, for example, crypto wallet providers, when they share the information with us.</li>
 
-                </ul>
+                </ol>
 
             </p>
             </div>
