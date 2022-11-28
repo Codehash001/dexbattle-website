@@ -45,7 +45,7 @@ useEffect(() => {
 
             </div>
 
-            <div className='w-[600px] h-[600px] mt-[60px]'>
+            <div className='w-[600px] h-[600px] mt-[80px]'>
               <img src='webimage1.png'
               className='object-cover'/>
             </div>
