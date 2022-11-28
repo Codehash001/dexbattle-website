@@ -23,8 +23,26 @@ useEffect(() => {
 
           <div className='flex flex-row items-center text-start'>
             <div className='mr-6'>
-                <h1 className='font-Archivo text-[60px] text-white font-semibold uppercase'> Make your own story <br/>
+                <h1 className='font-Kanit text-[60px] text-white font-semibold uppercase'> Make your own story <br/>
                 <span className='text-[75px] text-brand-yellow'>IN DEXBATTLE</span></h1>
+
+                <div class="flex justify-center my-10">
+            <a href={social.googlePlayStore}><div class="flex items-center border rounded-lg px-4 py-2 w-52 mx-2">
+                    <img src="https://cdn-icons-png.flaticon.com/512/888/888857.png" class="w-7 md:w-8"/>
+                    <div class="text-left ml-3">
+                        <p class='text-xs text-gray-200'>Download on </p>
+                        <p class="text-sm md:text-base text-gray-200"> Google Play Store </p>
+                    </div>
+                </div></a>
+                <a href={social.appleAppStore}><div class="flex items-center border rounded-lg px-4 py-2 w-52 mx-2">
+                    <img src="https://cdn-icons-png.flaticon.com/512/888/888841.png" class="w-7 md:w-8"/>
+                    <div class="text-left ml-3">
+                        <p class='text-xs text-gray-200'>Download on </p>
+                        <p class="text-sm md:text-base text-gray-200"> Apple App Store </p>
+                    </div>
+                </div></a>
+            </div>
+            
             </div>
 
             <div className='w-[500px] h-[500px]'>
