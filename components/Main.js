@@ -16,45 +16,23 @@ useEffect(() => {
     <div id="home"className='overflow-hidden flex flex-col'>
         <div className="w-full h-screen flex flex-col items-center justify-center relative">
         <img
-          src="/banner2.jpg"
-          className="w-screen h-auto brightness-75 object-fill blur-[1px]"
+          src="/webimage2.png"
+          className="w-screen object-cover"
         />
-        <div className='mt-6 top-[20px] absolute flex flex-col items-start font-Kanit '>
+        <div className='mt-6 left-5 absolute fex flex-col'>
 
-        
-  <div
-    class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center"
-  >
-    <div class="mx-auto max-w-3xl text-center bg-black/30 backdrop-blur py-4 rounded-xl">
-      <h1
-        class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-[60px] font-extrabold text-transparent sm:text-[68px] uppercase"
-      >
-        Make your Own story
+          <div className='flex flex-row items-center text-start'>
+            <div className='mr-6'>
+                <h1 className='font-Archivo text-[60px] text-white uppercase'> Make your own story <br/> in</h1>
+                <h1 className='font-Archivo text-[75px] text-brand-yellow'> DEXBATTLE</h1>
+            </div>
 
-        
-        <span class="sm:block">in DexBattle </span>
-      </h1>
-      <div class="mt-8 flex flex-wrap justify-center gap-4">
-      <a href={social.googlePlayStore}><div class="flex items-center border rounded-lg px-4 py-2 w-52 mx-2">
-                    <img src="https://cdn-icons-png.flaticon.com/512/888/888857.png" class="w-7 md:w-8"/>
-                    <div class="text-left ml-3">
-                        <p class='text-xs text-gray-200'>Download on </p>
-                        <p class="text-sm md:text-base text-gray-200"> Google Play Store </p>
-                    </div>
-                </div></a>
-      <a href={social.appleAppStore}><div class="flex items-center border rounded-lg px-4 py-2 w-52 mx-2">
-                    <img src="https://cdn-icons-png.flaticon.com/512/888/888841.png" class="w-7 md:w-8"/>
-                    <div class="text-left ml-3">
-                        <p class='text-xs text-gray-200'>Download on </p>
-                        <p class="text-sm md:text-base text-gray-200"> Apple App Store </p>
-                    </div>
-                </div></a>
-      </div>
-    </div>
-  </div>
+            <div className='w-[400px] h-[400px]'>
+              <img src='webimage1.png'
+              className='object-cover'/>
+            </div>
 
-          
-
+          </div>
         </div>
        
         </div>
