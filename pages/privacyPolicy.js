@@ -2,10 +2,10 @@ export default function Privacy() {
 
     return(
         <div className="w-screen mx-16 flex flex-col items-center overflow-hidden">
-            <h1 className="text-blue-400 font-Kanit text-3xl">
+            <h1 className="text-blue-400 font-Kanit text-3xl my-6">
                 DB Gaming Privacy Policy
             </h1>
-            <div>
+            <div className='overfolw-hidden'>
             <p className="text-white text-2xl">
                 <span className="font-semibold">LAST UPDATED: November 2022</span>
                 <br/>
@@ -23,6 +23,18 @@ export default function Privacy() {
                 <br/>
                 <br/>
                 Collectively, we refer to the Websites, emails, and offline business interactions as the “Services.”
+                <br/>
+                <br/>
+                <span className="font-semibold">PERSONAL INFORMATION</span>
+                <br/>
+                <br/>
+                “Personal Information” is information that identifies you as an individual or relates to
+                an identifiable individual. The Services collect Personal Information, including:
+                <br/>
+                <br/>
+                Name, Email address, Username and password, Crypto wallet address, including related data used to
+                detect cryptocurrency and NFT holdings, Social media handle, IP address (we may also derive your
+                approximate location from your IP address)
                 <br/>
                 <br/>
 
