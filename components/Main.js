@@ -26,7 +26,7 @@ useEffect(() => {
                 <h1 className='font-Kanit text-[60px] text-white font-semibold uppercase'> Make your own story <br/>
                 <span className='text-[75px] text-brand-yellow'>IN DEXBATTLE</span></h1>
 
-                <div class="flex justify-start mt-10 mb-[60px]">
+                <div class="flex justify-start mt-10">
             <a href={social.googlePlayStore}><div class="flex items-center border rounded-lg px-4 py-2 w-52 mx-2">
                     <img src="https://cdn-icons-png.flaticon.com/512/888/888857.png" class="w-7 md:w-8"/>
                     <div class="text-left ml-3">
