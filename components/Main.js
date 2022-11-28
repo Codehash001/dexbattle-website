@@ -22,11 +22,11 @@ useEffect(() => {
         <div className='mt-6 left-[40px] absolute fex flex-col'>
 
           <div className='flex flex-row items-center text-start'>
-            <div className='mr-6  border-b-3 border-brand-yellow'>
+            <div className='mr-6  border-b-4 border-brand-yellow'>
                 <h1 className='font-Kanit text-[60px] text-white font-semibold uppercase'> Make your own story <br/>
                 <span className='text-[75px] text-brand-yellow'>IN DEXBATTLE</span></h1>
 
-                <div class="flex justify-start mt-10">
+                <div class="flex justify-start mt-10 mb-[60px]">
             <a href={social.googlePlayStore}><div class="flex items-center border rounded-lg px-4 py-2 w-52 mx-2">
                     <img src="https://cdn-icons-png.flaticon.com/512/888/888857.png" class="w-7 md:w-8"/>
                     <div class="text-left ml-3">
