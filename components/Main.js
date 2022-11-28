@@ -23,11 +23,11 @@ useEffect(() => {
 
           <div className='flex flex-row items-center text-start'>
             <div className='mr-6'>
-                <h1 className='font-Archivo text-[60px] text-white uppercase'> Make your own story <br/> in</h1>
-                <span className='font-Archivo text-[75px] text-brand-yellow'> DEXBATTLE</span>
+                <h1 className='font-Archivo text-[60px] text-white font-semibold uppercase'> Make your own story <br/>
+                <span className='text-[75px] text-brand-yellow'>IN DEXBATTLE</span></h1>
             </div>
 
-            <div className='w-[500px] h-[600px]'>
+            <div className='w-[500px] h-[500px]'>
               <img src='webimage1.png'
               className='object-cover'/>
             </div>
