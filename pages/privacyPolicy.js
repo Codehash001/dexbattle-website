@@ -1,13 +1,13 @@
 export default function Privacy() {
 
     return(
-        <div className="w-screen mx-16 flex flex-col items-center">
-        <h1 className="text-white font-Kanit font-[30px] my-6">
+        <div className="w-screen mx-16 flex flex-col items-center overflow-hidden">
+        <h1 className="text-white font-Kanit text-[30px] my-6">
             DB Gaming privacy Policy
         </h1>
 
         <p>
-            <span className="font-bold my-4">LAST UPDATED: November 2022</span>
+            <span className="font-bold my-4 text-gray-200 font-Kanit text-[24px]">LAST UPDATED: November 2022</span>
 DB Gaming Limited and its affiliates (“DB,” “we,” or “us”) want you to be familiar with how we collect, use and disclose information. This Privacy Policy describes our practices in connection with information that we collect through:
 Websites operated by us from which you are accessing this Privacy Policy (the “Websites”);
 HTML-formatted email messages that we send to you that link to this Privacy Policy or other communications with you; and Offline business interactions you have with us.
