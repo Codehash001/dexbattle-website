@@ -3,7 +3,7 @@ export default function Privacy() {
     return(
         <div className="w-screen flex flex-col items-center overflow-hidden">
             <div className=" mx-16 my-4">
-            <h1 className="text-blue-400 font-Kanit text-3xl my-6">
+            <h1 className="text-blue-400 font-Kanit text-3xl my-6 text-center">
                 DB Gaming Privacy Policy
             </h1>
             <div >
@@ -38,6 +38,21 @@ export default function Privacy() {
                 approximate location from your IP address)
                 <br/>
                 <br/>
+                In-game activity, such as lands visited or acquired, quests and games completed, NFT transactions,
+                and avatars created
+                <br/>
+                <br/>
+                <span className="font-semibold">Collection of Personal Information</span>
+                <br/>
+                <br/>
+                <ul>
+<li>We and our service providers collect Personal Information in a variety of ways, including:</li>
+<li>Through the Services.</li>
+<li>We collect Personal Information through the Services, for example, when you register an account to access the Services, complete a survey, contact customer support, or make a purchase on our online marketplace.</li>
+<li>From Other Sources.</li>
+<li>	We receive your Personal Information from other sources, for example, crypto wallet providers, when they share the information with us.</li>
+
+                </ul>
 
             </p>
             </div>
