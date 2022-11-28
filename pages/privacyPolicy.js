@@ -6,7 +6,7 @@ export default function Privacy() {
             DB Gaming privacy Policy
         </h1>
 
-        <p>
+        <p className="my-4 text-gray-200 font-Kanit text-[24px]">
             <span className="font-bold my-4 text-gray-200 font-Kanit text-[24px]">LAST UPDATED: November 2022</span>
 DB Gaming Limited and its affiliates (“DB,” “we,” or “us”) want you to be familiar with how we collect, use and disclose information. This Privacy Policy describes our practices in connection with information that we collect through:
 Websites operated by us from which you are accessing this Privacy Policy (the “Websites”);
