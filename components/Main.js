@@ -21,7 +21,7 @@ useEffect(() => {
         />
         <div className='mt-6 left-[40px] absolute fex flex-col'>
 
-          <div className='flex flex-row items-center text-start'>
+          <div className='flex flex-row items-center text-start border-b-2 border-brand-yellow'>
             <div className='mr-6'>
                 <h1 className='font-Kanit text-[60px] text-white font-semibold uppercase'> Make your own story <br/>
                 <span className='text-[75px] text-brand-yellow'>IN DEXBATTLE</span></h1>
@@ -45,7 +45,7 @@ useEffect(() => {
 
             </div>
 
-            <div className='w-[500px] h-[500px]'>
+            <div className='w-[600px] h-[600px] mt-[60px]'>
               <img src='webimage1.png'
               className='object-cover'/>
             </div>
