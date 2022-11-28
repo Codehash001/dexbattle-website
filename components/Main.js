@@ -22,7 +22,7 @@ useEffect(() => {
         <div className='mt-6 left-[40px] absolute fex flex-col'>
 
           <div className='flex flex-row items-center text-start'>
-            <div className='mr-6  border-b-2 border-brand-yellow'>
+            <div className='mr-6  border-b-3 border-brand-yellow md:pb-[30px]'>
                 <h1 className='font-Kanit text-[60px] text-white font-semibold uppercase'> Make your own story <br/>
                 <span className='text-[75px] text-brand-yellow'>IN DEXBATTLE</span></h1>
 
