@@ -7,7 +7,7 @@ export default function Privacy() {
                 DB Gaming Privacy Policy
             </h1>
             <div >
-            <p className="text-white text-2xl">
+            <p className="text-white text-[18px]">
                 <span className="font-semibold">LAST UPDATED: November 2022</span>
                 <br/>
                 <br/>
