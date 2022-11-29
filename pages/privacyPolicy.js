@@ -1,5 +1,5 @@
 export default function Privacy() {
-f
+
     return(
         <div className="w-screen flex flex-col items-center overflow-hidden">
             <div className=" mx-16 my-4">
