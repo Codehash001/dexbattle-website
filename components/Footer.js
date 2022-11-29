@@ -27,9 +27,7 @@ function Footer () {
                 </div></a>
             </div>
         </div>
-        <div class="mt-8 flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-400">
-            <p class="order-2 md:order-1 mt-8 md:mt-0 md:mx-2 mx-6"> &copy; All rights reserved, 2022. </p><br/>
-            <div class="mt-8 flex gap-6 text-gray-500 sm:mt-0">
+        <div class="mt-8 flex gap-6 text-gray-500 sm:mt-0">
         <a class="hover:opacity-75" href={social.facebook} target="_blank" rel="noreferrer">
           <span class="sr-only"> Facebook </span>
 
@@ -100,6 +98,9 @@ function Footer () {
                 </a>
 
       </div>
+        <div class="mt-8 flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-400">
+            <p class="order-2 md:order-1 mt-8 md:mt-0 md:mx-2 mx-6"> &copy; All rights reserved, 2022. </p><br/>
+ 
             <div class="order-1 md:order-2">
                 <a href='/terms'><span class="px-2">Terms of Service</span></a>
                 <a href='/privacyPolicy'><span class="px-2 border-l">Privacy Policy</span></a>
