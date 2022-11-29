@@ -1,5 +1,5 @@
 export default function Privacy() {
-
+f
     return(
         <div className="w-screen flex flex-col items-center overflow-hidden">
             <div className=" mx-16 my-4">
@@ -65,9 +65,9 @@ export default function Privacy() {
                 <br/>
                 <br/>
                 <ul className="list-disc">
-                    <li>	To provide the Services&apos; functionality to you, such as arranging access to
+                    <li>To provide the Services&apos; functionality to you, such as arranging access to
                         your registered account, completing your transactions, and providing you with related benefits, special promotions, or customer service.</li>
-                    <li>	To respond to your inquiries and fulfill your requests, when you contact us via one of our online contact forms or otherwise, for example, when you send us questions, suggestions, compliments or complaints, or when you request information about our Services.</li>
+                    <li>To respond to your inquiries and fulfill your requests, when you contact us via one of our online contact forms or otherwise, for example, when you send us questions, suggestions, compliments or complaints, or when you request information about our Services.</li>
                 </ul>
 
                 <br/>
