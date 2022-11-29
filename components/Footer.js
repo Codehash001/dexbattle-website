@@ -6,7 +6,7 @@ import { social } from '../info.config';
 function Footer () {
     return(
       <div class=" bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-indigo-900 via-violet-900 to-fuchsia-900">
-    <div class="max-w-2xl mx-auto text-white py-10">
+    <div class=" mx-16 text-white py-10">
         <div class="text-center">
             <h3 class="text-3xl mb-3 font-Kanit"> Download DexBattle </h3>
             <p className='font-Kanit'> Make your own story </p>
@@ -27,7 +27,9 @@ function Footer () {
                 </div></a>
             </div>
         </div>
-        <div class="mt-8 flex gap-6 text-gray-500 sm:mt-0">
+        <div class="mt-8 flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-400">
+            <p class="order-2 md:order-1 mt-8 md:mt-0 md:mx-2 mx-6"> &copy; All rights reserved, 2022. </p><br/>
+            <div class="mt-8 flex gap-6 text-gray-500 sm:mt-0">
         <a class="hover:opacity-75" href={social.facebook} target="_blank" rel="noreferrer">
           <span class="sr-only"> Facebook </span>
 
@@ -98,9 +100,6 @@ function Footer () {
                 </a>
 
       </div>
-        <div class="mt-8 flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-400">
-            <p class="order-2 md:order-1 mt-8 md:mt-0 md:mx-2 mx-6"> &copy; All rights reserved, 2022. </p><br/>
- 
             <div class="order-1 md:order-2">
                 <a href='/terms'><span class="px-2">Terms of Service</span></a>
                 <a href='/privacyPolicy'><span class="px-2 border-l">Privacy Policy</span></a>
