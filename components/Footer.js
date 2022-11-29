@@ -101,9 +101,8 @@ function Footer () {
 
       </div>
             <div class="order-1 md:order-2">
-                <a href='/privacyPolicy'><span class="px-2">Privacy Policy</span></a>
                 <a href='/terms'><span class="px-2">Terms of Service</span></a>
-                <a href='/'><span class="px-2 border-l">Home</span></a>
+                <a href='/privacyPolicy'><span class="px-2 border-l">Privacy Policy</span></a>
                 <a href='/mint'><span class="px-2 border-l">Mint</span></a>
                 <a href='/exchange'><span class="px-2 border-l">DexCoin</span></a>
             </div>
