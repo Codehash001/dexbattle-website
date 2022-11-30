@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact () {
     return (
-        <div className="flex flex-col items-center">
+
 
 <section class="relative z-10 overflow-hidden bg-white py-20 lg:py-[120px]">
   <div class="container mx-auto">
@@ -945,6 +945,6 @@ export default function Contact () {
 </section>
 
 
-        </div>
+
     )
 }
