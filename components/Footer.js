@@ -32,7 +32,7 @@ function Footer () {
                       </a>
                   </div>
               </div>
-              <div class="mt-8 mr-6 flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-400">
+              <div class="mt-8 flex flex-col gap-[40px] md:flex-row md:justify-between items-center text-sm text-gray-400">
               <div class="flex gap-6 text-gray-500 sm:mt-0">
 <a class="hover:opacity-75" href={social.facebook} target="_blank" rel="noreferrer">
   <span class="sr-only"> Facebook </span>
@@ -103,8 +103,8 @@ d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.
         </a>
 
 </div>
-                  <p class="order-2 md:order-1 mt-8 md:mt-0 mr-4"> &copy; All rights reserved Dexbattle, 2022 </p>
-                  <div class="order-1 md:order-2 mr-4">
+                  <p class="order-2 md:order-1 mt-8 md:mt-0"> &copy; All rights reserved Dexbattle, 2022 </p>
+                  <div class="order-1 md:order-2">
                       <span class="px-2">About us</span>
                       <span class="px-2 border-l">Contact us</span>
                       <span class="px-2 border-l">Privacy Policy</span>
