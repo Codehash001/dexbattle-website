@@ -5,7 +5,7 @@ import { social } from '../info.config';
 
 function Footer () {
     return(
-      <div class=" bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-indigo-900 via-violet-900 to-fuchsia-900">
+      <div class=" bg-gradient-to-r from-amber-300 via-orange-500 to-orange-900">
     <div class=" mx-16 text-white py-10">
         <div class="text-center">
             <h3 class="text-3xl mb-3 font-Kanit"> Download DexBattle </h3>
@@ -102,8 +102,6 @@ function Footer () {
             <div class="order-1 md:order-2">
                 <a href='/terms'><span class="px-2">Terms of Service</span></a>
                 <a href='/privacyPolicy'><span class="px-2 border-l">Privacy Policy</span></a>
-                <a href='/mint'><span class="px-2 border-l">Mint</span></a>
-                <a href='/exchange'><span class="px-2 border-l">DexCoin</span></a>
             </div>
         </div>
     </div>
