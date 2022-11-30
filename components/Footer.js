@@ -32,12 +32,12 @@ function Footer () {
                       </a>
                   </div>
               </div>
-              <div class="mt-28 flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-400">
+              <div class="mt-8 flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-400">
                   <p class="order-2 md:order-1 mt-8 md:mt-0"> &copy; All rights reserved Dexbattle, 2022 </p>
                   <div class="order-1 md:order-2">
-                      <span class="px-2">About us</span>
-                      <span class="px-2 border-l">Contact us</span>
-                      <span class="px-2 border-l">Privacy Policy</span>
+                      <a href='/Contactus'><span class="px-2">Contact us</span></a>
+                      <a href='/terms'><span class="px-2 border-l"></span>Teram of Service</a>
+                      <a href='/privacyPolicy'><span class="px-2 border-l">Privacy Policy</span></a>
                   </div>
               </div>
           </div>
