@@ -4,20 +4,20 @@ export default function Contact () {
     return (
 
 
-<section class="relative z-10 overflow-hidden bg-white py-20 lg:py-[120px]">
+<section class="relative z-10 overflow-hidden py-20 lg:py-[100px]">
   <div class="container mx-auto">
     <div class="-mx-4 flex flex-wrap lg:justify-between">
-      <div class="w-full px-4 lg:w-1/2 xl:w-6/12">
+      <div class="w-full px-4 lg:w-1/2 xl:w-6/12 text-white">
         <div class="mb-12 max-w-[570px] lg:mb-0">
           <span class="text-primary mb-4 block text-base font-semibold">
             Contact Us
           </span>
           <h2
-            class="text-dark mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]"
+            class=" mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]"
           >
             GET IN TOUCH WITH US
           </h2>
-          <p class="text-body-color mb-9 text-base leading-relaxed">
+          <p class=" mb-9 text-base leading-relaxed">
             If you faced any problem , technical issue or have any suggestion?<br/>Let us know
           </p>
           <div class="mb-8 flex w-full max-w-[370px]">
@@ -36,8 +36,8 @@ export default function Contact () {
               </svg>
             </div>
             <div class="w-full">
-              <h4 class="text-dark mb-1 text-xl font-bold">Our Location</h4>
-              <p class="text-body-color text-base">
+              <h4 class="mb-1 text-xl font-bold">Our Location</h4>
+              <p class=" text-base">
                 Adress line 1 , Adddress line 2 , city
               </p>
             </div>
@@ -64,8 +64,8 @@ export default function Contact () {
               </svg>
             </div>
             <div class="w-full">
-              <h4 class="text-dark mb-1 text-xl font-bold">Phone Number</h4>
-              <p class="text-body-color text-base">(+00)11 22 333 444</p>
+              <h4 class="mb-1 text-xl font-bold">Phone Number</h4>
+              <p class="text-base">(+00)11 22 333 444</p>
             </div>
           </div>
           <div class="mb-8 flex w-full max-w-[370px]">
@@ -84,8 +84,8 @@ export default function Contact () {
               </svg>
             </div>
             <div class="w-full">
-              <h4 class="text-dark mb-1 text-xl font-bold">Email Address</h4>
-              <p class="text-body-color text-base">info@yourdomain.com</p>
+              <h4 class=" mb-1 text-xl font-bold">Email Address</h4>
+              <p class=" text-base">info@yourdomain.com</p>
             </div>
           </div>
         </div>
@@ -104,27 +104,27 @@ export default function Contact () {
               <input
                 type="email"
                 placeholder="Your Email"
-                class="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
+                class="text-body-color border-[#f0f0f0] focus:border-gray-700 w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
               />
             </div>
             <div class="mb-6">
               <input
                 type="text"
                 placeholder="Your Phone"
-                class="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
+                class="text-body-color border-[#f0f0f0] focus:border-gray-700 w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
               />
             </div>
             <div class="mb-6">
               <textarea
                 rows="6"
                 placeholder="Your Message"
-                class="text-body-color border-[f0f0f0] focus:border-primary w-full resize-none rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
+                class="text-body-color border-[#f0f0f0] focus:border-gray-700 w-full resize-none rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
               ></textarea>
             </div>
             <div>
               <button
                 type="submit"
-                class="bg-primary border-primary w-full rounded border p-3 text-white transition hover:bg-opacity-90"
+                class="bg-blue-800 border-gray-700 w-full rounded border p-3 text-white transition hover:bg-opacity-90"
               >
                 Send Message
               </button>
