@@ -83,21 +83,24 @@ function Navbar () {
             <div  className='py-4 flex flex-col '>
         <ul className='uppercase text-gray-200 font-Kanit text-center'>
             <li  className='py-4 text-sm hover:text-white'>
-            <Link onClick={() => setNav(false)}  className="cursor-pointer" activeClass ="active" to='home' spy={true} smooth={true} offset={-70} duration={500}>Home</Link>
+            <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/'><h1 className='mx-4'>Home</h1></a>
             </li>
             <li  className='py-4 text-sm hover:text-white'>
-            <Link onClick={() => setNav(false)}  className="cursor-pointer" activeClass ="active" to='nfts' spy={true} smooth={true} offset={-70} duration={500}>Characters</Link>            </li>
+            <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/Aboutus'><h1 className='mx-4'> About Us</h1></a>
+            </li>
             <li  className='py-4 text-sm hover:text-white'>
-            <Link onClick={() => setNav(false)} className="cursor-pointer" activeClass ="active" to='dexcoin' spy={true} smooth={true} offset={-70} duration={500}>Weapons</Link>
+            <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/Contactus'><h1 className='mx-4'>Contact Us</h1></a>
             </li>
-            <li>
-            <a className="cursor-pointe"  href='/DexBattleWhitepaper.pdf' download='DexBattleWhitepaper.pdf'>Whitepaper</a>
-            </li>
-            <li>
-        <div className='hidden py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white rounded-md border border-white hover:bg-blue-200 hover:text-black'>
-            <a href='/mint'><h1 className='mx-4 uppercase tracking-wide hover:font-semibold'>Connect Wallet</h1> </a>
+            <li  className='py-4 text-sm hover:text-white'>
+            <a className="cursor-pointer hover:text-blue-400" href='/DexBattleWhitepaper.pdf' download='DexBattleWhitepaper.pdf'><h1 className='mx-4'>Whitepaper</h1></a>
+          </li>
+          <li  className='py-4 text-sm hover:text-white'>
+          <a href={social.opensea}>
+        <div className='hidden py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white font-semibold border border-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 hover:text-black  hover:font-semibold'>
+            <h1 className='mx-4 uppercase tracking-wide'>Buy now</h1>
 
           </div>
+          </a>
           </li>
             
           </ul>
