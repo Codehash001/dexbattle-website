@@ -175,7 +175,7 @@ selling for millions of dollars, these fees may outweigh the revenue earned by i
 
           </div>
 
-          <div className='w-full flex items-end'>
+          <div className='w-full flex-row items-end'>
              <img
             data-aos="flip-up"
             src='/DexBattle PNG/DexBattle-nostore.jpg'
