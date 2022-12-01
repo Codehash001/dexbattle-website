@@ -24,7 +24,7 @@ useEffect(() => {
           <div className='flex flex-row items-center text-start'>
             <div className='mr-6  border-b-4 border-brand-yellow'>
                 <h1 className='font-Kanit text-[60px] text-white font-semibold uppercase'> Make your own story <br/>
-                <span className='text-[75px] text-white'>IN <span className='bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500'>DEXBATTLE</span></span></h1>
+                <span className='text-[75px] text-white'>IN <span className='bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent'>DEXBATTLE</span></span></h1>
 
                 <div class="flex justify-start mt-10 mb-[60px]">
             <a href={social.googlePlayStore}><div class="flex items-center border rounded-lg px-4 py-2 w-52 mx-2">
