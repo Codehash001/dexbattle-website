@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbars/NavAbout";
+import Navbar from "../components/NavAbout";
 
 export default function Privacy() {
 
