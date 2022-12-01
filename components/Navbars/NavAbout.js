@@ -59,8 +59,8 @@ function Navbar () {
       :'fixed left-[-100%] top-0 p-10 ease-in duration-500 h-screen'
       }>
       <div className='flex w-full items-center justify-between'>
-      <Link className="cursor-pointer" activeClass ="active" to='home' spy={true} smooth={true} duration={500}>
-                <a>
+      
+                <a className='cursor-pointer' href='/'>
                   <Image
                     src="/Dex.png"
                     width='45'
@@ -69,7 +69,7 @@ function Navbar () {
                     className="rounded-md"
                   />
                 </a>
-              </Link>
+              
               <div onClick={handleNav}
               className='fixed md:right-[-100%] rounded-full bg-gray-400 hover:shadow-lg hover:shadow-gray-600 p-3 cursor-pointer '>
               <AiOutlineClose size={18} />
