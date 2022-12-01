@@ -44,7 +44,7 @@ useEffect(() => {
             </div>
 
                          {/* social media icons */}
-           <div className='md:flex-3 w-100 justify-between my-6 border-t border-brand-yellow '>            
+           <div className='md:flex-3 w-100 justify-between my-6 '>            
           <nav aria-label="Contact Menu">
             <ul className="hidden md:flex items-center space-x-4 md:space-x-6">
               <li className="cursor-pointer px-2">
