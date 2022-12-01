@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
-import {social} from '../info.config'
+import { social } from '../info.config';
 
 
 
