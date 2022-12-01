@@ -2,6 +2,7 @@ import Image from 'next/image';
 import {Link} from 'react-scroll/modules';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import { social } from '../info.config';
 
 
 function Navbar () {
@@ -34,11 +35,12 @@ function Navbar () {
           </div>
 
         <li>
-        <div className='hidden py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white font-semibold border border-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 hover:text-black  hover:font-semibold'>
-            <a href='/mint2'><h1 className='mx-4 uppercase tracking-wide'>Buy now</h1> </a>
+        <a href={social.opensea}>
+        <div className='hidden py-f2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white font-semibold border border-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 hover:text-black  hover:font-semibold'>
+            <h1 className='mx-4 uppercase tracking-wide'>Buy now</h1>
 
           </div>
-          
+          </a>
         </li>
         <li>
         <div onClick={handleNav}
