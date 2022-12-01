@@ -1,9 +1,12 @@
 import React from "react";
+import Navbar from "../components/Navbars/NavAbout";
 
 export default function Contact () {
     return (
 
+<div>
 
+  <Navbar/>
 <section class="relative z-10 overflow-hidden py-20 lg:py-[100px]">
   <div class="container mx-auto">
     <div class="-mx-4 flex flex-wrap lg:justify-between">
@@ -943,6 +946,7 @@ export default function Contact () {
     </div>
   </div>
 </section>
+</div>
 
 
 
