@@ -1,8 +1,8 @@
 import Image from 'next/image';
+import {Link} from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { social } from '../info.config';
-
 
 
 function Navbar () {
@@ -13,25 +13,25 @@ function Navbar () {
     setNav(!nav);
   };
 
-  return ( 
+  return (
     <div>
-    <div className='fixed z-[100] w-screen md:mx-10 lg:mx-10 mt-4 bg-black/30 backdrop-blur-sm overflow-hidden border-b-white rounded-md'>
-      <ul className='flex flex-row items-center justify-between '>
-       <a href='/'>
-        <li>
+    <div className='fixed z-[100] w-full h-auto bg-black/30 backdrop-blur-sm overflow-hidden border-b-white'>
+      <ul className='flex flex-row items-center justify-between my-4 mx-10'>
+        <a href='/'>
+          <li>
           <img className = 'w-auto h-[55px]' 
             src = '/Dex.png'
           />
         </li>
-        </a> 
-          <div className='hidden bg-gray-700/30 py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white rounded-full text-[20px]'>
-            <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/'><h1 className='mx-4'>Home</h1></a>
-            <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/Aboutus'><h1 className='mx-4'> About Us</h1></a>
-            <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/Contactus'><h1 className='mx-4'>Contact Us</h1></a>
-            <a className="cursor-pointer hover:text-blue-400" href='/DexBattleWhitepaper.pdf' download='DexBattleWhitepaper.pdf'><h1 className='mx-4'>Whitepaper</h1></a>
+        </a>
+          <div className='hidden bg-gray-700/30 py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white rounded-md text-[20px]'>
+            <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent"><h1 className='mx-4'>Home</h1></a>
+            <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/Aboutus' ><h1 className='mx-4'>About Us </h1></a>
+            <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/Contactus' ><h1 className='mx-4'>Contact Us </h1></a>
+            <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/DexBattleWhitepaper.pdf' download='DexBattleWhitepaper.pdf'><h1 className='mx-4'>Whitepaper</h1></a>
           </div>
 
-          <li>
+        <li>
         <a href={social.opensea}>
         <div className='hidden py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white font-semibold border border-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 hover:text-black  hover:font-semibold'>
             <h1 className='mx-4 uppercase tracking-wide'>Buy now</h1>
@@ -61,8 +61,8 @@ function Navbar () {
       :'fixed left-[-100%] top-0 p-10 ease-in duration-500 h-screen'
       }>
       <div className='flex w-full items-center justify-between'>
-      
-                <a className='cursor-pointer' href='/'>
+      <a className="cursor-pointer" href='/'>
+                
                   <Image
                     src="/Dex.png"
                     width='45'
@@ -70,8 +70,8 @@ function Navbar () {
                     alt='/'
                     className="rounded-md"
                   />
-                </a>
-              
+                
+              </a>
               <div onClick={handleNav}
               className='fixed md:right-[-100%] rounded-full bg-gray-400 hover:shadow-lg hover:shadow-gray-600 p-3 cursor-pointer '>
               <AiOutlineClose size={18} />
@@ -79,30 +79,28 @@ function Navbar () {
           </div>
           <div className='border-b py-4 flex flex-col mt-4'>
               <p className='uppercase text-[18px] text-white font-Kanit text-center'>
-              Dex Battle Minting
+              Dex Battle
               </p>
             </div>
             <div  className='py-4 flex flex-col '>
         <ul className='uppercase text-gray-200 font-Kanit text-center'>
             <li  className='py-4 text-sm hover:text-white'>
-            <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/'><h1 className='mx-4'>Home</h1></a>
+            <a onClick={() => setNav(false)} href='/'>Home</a>
             </li>
             <li  className='py-4 text-sm hover:text-white'>
-            <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/Aboutus'><h1 className='mx-4'> About Us</h1></a>
+            <a onClick={() => setNav(false)} href='/Aboutus' >About us</a>
             </li>
             <li  className='py-4 text-sm hover:text-white'>
-            <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/Contactus'><h1 className='mx-4'>Contact Us</h1></a>
+            <a onClick={() => setNav(false)} href='/Contactus' >Contact Us</a>
             </li>
-            <li  className='py-4 text-sm hover:text-white'>
-            <a className="cursor-pointer hover:text-blue-400" href='/DexBattleWhitepaper.pdf' download='DexBattleWhitepaper.pdf'><h1 className='mx-4'>Whitepaper</h1></a>
-          </li>
-          <li  className='py-4 text-sm hover:text-white'>
-          <a href={social.opensea}>
-        <div className='hidden py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white font-semibold border border-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 hover:text-black  hover:font-semibold'>
-            <h1 className='mx-4 uppercase tracking-wide'>Buy now</h1>
+            <li>
+            <a className="cursor-pointe"  href='/DexBattleWhitepaper.pdf' download='DexBattleWhitepaper.pdf'>Whitepaper</a>
+            </li>
+            <li>
+        <div className='hidden py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white rounded-md border border-white hover:bg-blue-200 hover:text-black'>
+            <a href={social.opensea}><h1 className='mx-4 uppercase tracking-wide hover:font-semibold'>BUY NOW</h1> </a>
 
           </div>
-          </a>
           </li>
             
           </ul>
