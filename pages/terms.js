@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Navbar from "../components/NavAbout";
 
 export default function Privacy() {
@@ -191,6 +192,7 @@ export default function Privacy() {
             </div>
             </div>
         </div>
+        <Footer/>
         </div>
     )
 }

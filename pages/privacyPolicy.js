@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Navbar from "../components/NavAbout";
 
 export default function Privacy() {
@@ -181,6 +182,7 @@ If you have any questions about this Privacy Policy, please contact us at admin@
             </div>
             </div>
         </div>
+        <Footer/>
         </div>
     )
 }

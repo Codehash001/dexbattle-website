@@ -1,5 +1,7 @@
 import React from "react";
+import Footer from "../components/Footer";
 import Navbar from "../components/NavAbout";
+
 
 export default function Contact () {
     return (
@@ -946,6 +948,7 @@ export default function Contact () {
     </div>
   </div>
 </section>
+<Footer/>
 </div>
 
 
