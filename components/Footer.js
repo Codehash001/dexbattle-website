@@ -33,7 +33,7 @@ function Footer () {
                   </div>
 
               </div>
-              <div class="mt-8 flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-400">
+              <div class="w full gap-5 mt-8 flex flex-col md:flex-row lg:flex-raw md:justify-between items-center text-sm text-gray-400">
                   <p class="order-2 md:order-1 mt-8 md:mt-0"> &copy; All rights reserved Dexbattle, 2022 </p>
                   <div class="order-1 md:order-2">
                       <a href='/Contactus'><span class="px-2">Contact us</span></a>
@@ -41,8 +41,8 @@ function Footer () {
                       <a href='/privacyPolicy'><span class="px-2 border-l">Privacy Policy</span></a>
                   </div>
 
-                                      {/* social media icons */}
-                                      <div className='md:flex-3 w-100 justify-between '>            
+             {/* social media icons */}
+           <div className='md:flex-3 w-100 justify-between '>            
           <nav aria-label="Contact Menu">
             <ul className="hidden md:flex items-center space-x-4 md:space-x-6">
               <li className="cursor-pointer px-2">
