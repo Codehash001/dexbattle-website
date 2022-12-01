@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import {Link} from 'react-scroll/modules';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 
@@ -13,29 +12,32 @@ function Navbar () {
   };
 
   return ( 
-    <div>
+    <div className='mt-4'>
     <div className='fixed z-[100] w-screen md:mx-10 lg:mx-10 bg-black/30 backdrop-blur-sm overflow-hidden border-b-white rounded-md'>
       <ul className='flex flex-row items-center justify-between '>
+       <a href='/'>
         <li>
           <img className = 'w-auto h-[55px]' 
             src = '/Dex.png'
           />
         </li>
+        </a> 
           <div className='hidden bg-gray-700/30 py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white rounded-full text-[20px]'>
-            <Link className="cursor-pointer hover:text-blue-400" acticeClass ="active" to='home' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'>Home</h1></Link>
-            <Link className="cursor-pointer hover:text-blue-400" acticeClass ="active" to='nfts' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'> Characters</h1></Link>
-            <Link className="cursor-pointer hover:text-blue-400" acticeClass ="active" to='dexcoin' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'>Weapons</h1></Link>
+            <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/'><h1 className='mx-4'>Home</h1></a>
+            <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/Aboutus'><h1 className='mx-4'> About Us</h1></a>
+            <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/Contactus'><h1 className='mx-4'>Contact Us</h1></a>
             <a className="cursor-pointer hover:text-blue-400" href='/DexBattleWhitepaper.pdf' download='DexBattleWhitepaper.pdf'><h1 className='mx-4'>Whitepaper</h1></a>
           </div>
 
-        <li>
-        <div className=' py-2 px-4 backdrop-blur-md flex flex-row font-Kanit text-white rounded-md border border-white hover:bg-blue-200 hover:text-black  hover:font-semibold'>
-            <a href='/mint'><h1 className='mx-4 uppercase tracking-wide'>Connect Wallet</h1> </a>
+          <li>
+        <a href={social.opensea}>
+        <div className='hidden py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white font-semibold border border-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 hover:text-black  hover:font-semibold'>
+            <h1 className='mx-4 uppercase tracking-wide'>Buy now</h1>
 
           </div>
-          
+          </a>
         </li>
-        <li>
+        <li className='md:hidden'>
         <div onClick={handleNav}
           className=' md:hidden rounded-md p-2 bg-white mr-2 cursor-pointer' >
             <AiOutlineMenu size={18} />
