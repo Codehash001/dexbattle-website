@@ -40,10 +40,9 @@ function Footer () {
                       <a href='/terms'><span class="px-2 border-l"></span>Teram of Service </a>
                       <a href='/privacyPolicy'><span class="px-2 border-l">Privacy Policy</span></a>
                   </div>
-              </div>
 
-                                  {/* social media icons */}
-                                  <div className='md:flex-3 w-100 justify-between '>            
+                                      {/* social media icons */}
+                                      <div className='md:flex-3 w-100 justify-between '>            
           <nav aria-label="Contact Menu">
             <ul className="hidden md:flex items-center space-x-4 md:space-x-6">
               <li className="cursor-pointer px-2">
@@ -102,6 +101,9 @@ function Footer () {
           </nav>
             
           </div>
+              </div>
+
+              
           </div>
       </div>
     )
