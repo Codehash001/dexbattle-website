@@ -174,28 +174,19 @@ selling for millions of dollars, these fees may outweigh the revenue earned by i
             </h1>
 
           </div>
-          
+
+          <div className='w-full flex items-end'>
              <img
             data-aos="flip-up"
             src='/DexBattle PNG/DexBattle-nostore.jpg'
             className='mx-10 h-full w-[30%]  border border-gray-400 rounded-lg'/>
 
+            </div>
+
            
 
         </div>
-        
-        {/* <div  className="w-screen h-auto mt-5 flex justify-center my-5 md:my-8">
-          <div><Link className="cursor-pointer" href='/mint'>
-            <div
-            className="cursor-pointer font-Righteous p-2 bg-gradient-to-br from-brand-03 to-brand-04
-            shadow-md rounded-md md:text-2xl text-[20px] text-black hover:shadow-gray-400/50 hover:text-bold tracking-wide uppercase">
-                  <span className="cursor-pointer p-4 md:px-20 lg:px-32">Go To Minting portal </span>
-            </div>
-            </Link>
-          </div>
 
-        
-        </div> */}
       </div>
     )
 }
