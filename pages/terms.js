@@ -1,14 +1,13 @@
-import Navbar from "../components/NavAbout";
+import Navbar from "../components/Navbar";
 
 export default function Privacy() {
 
     return(
         
-        
+        <div>
+        <Navbar/>
         <div className="w-screen flex flex-col items-center overflow-hidden">
-            
             <div className=" mx-16 my-4">
-                <Navbar/>
             <h1 className="text-blue-400 font-Kanit text-3xl my-6 text-center">
             Dex Battle Gaming Terms and Condition
             </h1>
@@ -191,6 +190,7 @@ export default function Privacy() {
             </p>
             </div>
             </div>
+        </div>
         </div>
     )
 }
