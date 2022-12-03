@@ -11,8 +11,10 @@
   "dependencies": {
     "@alch/alchemy-web3": "^1.4.7",
     "@material-tailwind/react": "^1.2.4",
+    "@sendgrid/mail": "^7.7.0",
     "aos": "^2.3.4",
     "apexcharts": "^3.36.3",
+    "axios": "^1.2.0",
     "bnc-onboard": "^1.39.1",
     "chart.js": "^3.9.1",
     "d3": "^7.6.1",
@@ -20,10 +22,12 @@
     "keccak256": "^1.0.6",
     "merkletreejs": "^0.3.0",
     "next": "13.0.0",
+    "nodemailer": "^6.8.0",
     "react": "18.2.0",
     "react-apexcharts": "^1.4.0",
     "react-chartjs-2": "^4.3.1",
     "react-dom": "18.2.0",
+    "react-hook-form": "^7.40.0",
     "react-icons": "^4.6.0",
     "react-scroll": "^1.8.8",
     "web3": "^1.8.0"
