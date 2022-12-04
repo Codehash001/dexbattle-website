@@ -1,4 +1,4 @@
-import React from "react";
+import {React, useState }from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/NavAbout";
 import { useForm, ValidationError } from "@formspree/react";
@@ -6,13 +6,17 @@ import { useForm, ValidationError } from "@formspree/react";
 export default function Contact () {
 
   const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORM);
+  const [status, setStatus] = useState ('')
 
 
   if (state.succeeded) {
-    return <p>Thanks for your submission!</p>;
+    setStatus('Thanks for your submission!')
+  }
+  else {
+    setStatus ('oops! something went wrong :(')
   }
   
-    return (
+return (
 
 <div>
 
@@ -187,7 +191,9 @@ export default function Contact () {
                 />
               </svg>
             </button>
+            <div className="my-2 text-sm text-gray-400">{status}</div>
             <ValidationError errors={state.errors} />
+
           </div>
         </form>
           <div>
