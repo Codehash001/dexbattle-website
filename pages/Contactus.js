@@ -6,15 +6,15 @@ import { useForm, ValidationError } from "@formspree/react";
 export default function Contact () {
 
   const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORM);
-  const [status, setStatus] = useState ('')
+  // const [status, setStatus] = useState ('');
 
 
-  if (state.succeeded) {
-    setStatus('Thanks for your submission!')
-  }
-  else {
-    setStatus ('oops! something went wrong :(')
-  }
+  // if (state.succeeded) {
+  //   setStatus('Thanks for your submission!')
+  // }
+  // else {
+  //   setStatus ('oops! something went wrong :(')
+  // }
   
 return (
 
@@ -191,7 +191,7 @@ return (
                 />
               </svg>
             </button>
-            <div className="my-2 text-sm text-gray-400">{status}</div>
+            <div className="my-2 text-sm text-gray-400">{state.succeeded ? "Thanks for your submission!": ''}</div>
             <ValidationError errors={state.errors} />
 
           </div>
