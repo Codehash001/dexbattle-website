@@ -136,7 +136,7 @@ export default function Contact () {
           <input
             type="email"
             name="email"
-            value={email}
+           
             className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"
           />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
