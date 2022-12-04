@@ -23,7 +23,7 @@ return (
 
   <Navbar/>
 <section class="relative z-10 overflow-hidden py-20 lg:py-[100px]">
-  <div class="container mx-auto">
+  <div class="container mx-16">
     <div class="-mx-4 flex flex-wrap lg:justify-between">
       <div class="w-full px-4 lg:w-1/2 xl:w-6/12 text-white">
         <div class="mb-12 max-w-[570px] lg:mb-0">
