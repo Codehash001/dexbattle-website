@@ -153,10 +153,6 @@ return (
                 />
               </svg>
             </div>
-            <div class="w-full">
-              <h4 class="mb-1 text-xl font-bold">Phone Number</h4>
-              <p class="text-base">(+00)11 22 333 444</p>
-            </div>
           </div>
           <div class="mb-8 flex w-full max-w-[370px]">
             <div
