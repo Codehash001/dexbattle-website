@@ -88,7 +88,7 @@ export const isPausedState = async () => {
 }
 
 
-export const doMint = async (id) => {
+export const doMint = async (cost, id) => {
 
   if (!window.ethereum.selectedAddress) {
     return {
@@ -96,10 +96,21 @@ export const doMint = async (id) => {
       status: 'To be able to mint, you need to connect your wallet'
     }
   }
+
+  const nonce = await web3.eth.getTransactionCount(
+    window.ethereum.selectedAddress,
+    'latest'
+  )
+
   const tx = {
     to: config.nftContract,
     from: window.ethereum.selectedAddress,
-    data: nftContract.methods.mint(id).encodeABI()
+    value: parseInt(
+      web3.utils.toWei(String (cost), 'ether')
+    ).toString(16), // hexf
+    gas: String(25000),
+    data: nftContract.methods.mint(id).encodeABI(),
+    nonce: nonce.toString(16)
   }
   try {
     const txHash = await window.ethereum.request({
