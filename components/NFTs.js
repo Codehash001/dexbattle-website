@@ -14,7 +14,7 @@ function Nfts () {
 
     return (
         <div id="nfts"className='overflow-hidden flex flex-col'>
-    <div className='flex flex-col my-10 md:mx-16 mx-2 justify-between items-center'>
+    <div className='flex flex-col my-10 mx-16 justify-between items-center'>
        <div className='mt-10'>
         <h1 data-aos="flip-right" className='text-[40px] bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent font-Kanit text-center uppercase font-semibold tracking-wide'>The Problem</h1>
         <p data-aos="flip-right" className='text-center font-Kanit text-[20px] text-gray-400 mt-4 mb-5'>
