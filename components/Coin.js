@@ -18,8 +18,8 @@ function Coins () {
         <div id="dexcoin"className='overflow-hidden flex flex-col items-center'>
      <div className='md:flex flex-row md:mx-16 mx-2 justify-between items-center'>
           <div className='flex flex-col my-4 md:w-[70%] w-full md:fmr-10'>
-            <h1 data-aos="flip-right" className='text-[40px] font-Kanit bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent tracking-wide uppercase'>Token</h1>
-            <h1 data-aos="flip-right"className='text-[20px] font-Kanit text-gray-400 text-justify mt-6'>
+            <h1 data-aos="flip-right" className='md:text-[40px] text-[30px] font-Kanit bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent tracking-wide uppercase'>Token</h1>
+            <h1 data-aos="flip-right"className='md:text-[20px] text-[16px] font-Kanit text-gray-400 text-justify mt-6'>
             The token name is Dex coin. The token will be launched on the Binance Smart chain. It will be a native Bep20 which will
 be transferable in the cryptocurrency ecosystem as well as within the game.
 The benefit of introducing this token is to enable the play2earn feature which is the main part of our goal. The goal of Dex
@@ -32,7 +32,7 @@ The ways of earning the token have already been mentioned. These include but are
 <li>Ingame currency</li>
 <li>Achievements and Rewards </li></ol>
 
-<h1 data-aos="flip-right" className='text-[20px] font-Kanit text-gray-400 text-justify '>
+<h1 data-aos="flip-right" className='md:text-[20px] text-[16px] font-Kanit text-gray-400 text-justify '>
 These Dex coin will be fungible blockchain based tokens. Hence, they will be transferable outside the game on any
 exchange, marketplace, game that accepts the token as their form of currency.
 The tokens will be added to centralized exchanges allowing users to buy/sell these easily.
