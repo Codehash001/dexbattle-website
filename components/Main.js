@@ -13,7 +13,7 @@ useEffect(() => {
     }, []); 
 
     return(
-    <div id="home"className='overflow-hidden flex flex-col'>
+    <div id="home"className='overflow-hidden flex flex-col items center'>
         <div className="w-full h-screen flex flex-col items-center justify-center relative">
         <img
           src="/webimage2.png"
@@ -44,7 +44,7 @@ useEffect(() => {
             </div>
 
                          {/* social media icons */}
-           <div className='md:flex-3 w-100 justify-between my-6 '>            
+           <div className='flex w-100 justify-between my-6 '>            
           <nav aria-label="Contact Menu">
             <ul className="flex items-center space-x-4 md:space-x-6">
               <li className="cursor-pointer px-2">
@@ -179,7 +179,7 @@ selling for millions of dollars, these fees may outweigh the revenue earned by i
              <img
             data-aos="flip-up"
             src='/DexBattle PNG/DexBattle-nostore.jpg'
-            className='md:mx-10 h-full w-[350px] md:w-[30%]  border border-gray-400 rounded-lg'/>
+            className='md:mx-10 h-full w-full md:w-[30%]  border border-gray-400 rounded-lg'/>
 
             </div>
 
