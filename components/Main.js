@@ -151,7 +151,7 @@ useEffect(() => {
         </div>
         
         <div data-aos ="fade-up"className='flex md:flex-row flex-col md:mx-16 justify-between bg-gray-700/40 backdrop-blur-sm rounded-lg items-center'>
-          <div className='flex flex-col my-4 w-[70%] md:mx-10 mx-4'>
+          <div className='flex flex-col my-4 md:w-[70%] md:mx-10 mx-4'>
             <h1 data-aos="fade-right" className='md:text-5xl text-3xl font-Kanit text-white tracking-wide'>What is DexBattale?</h1>
             <h1 data-aos="fade-right" className='text-[18px] font-Kanit text-gray-400 text-justify mt-6'>
             Welcome to the ever-evolving Dex battle universe! Hone your shooting skills, compete in tournaments, and complete missions with your
