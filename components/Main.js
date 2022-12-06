@@ -23,10 +23,10 @@ useEffect(() => {
 
           <div className='flex flex-row items-center text-start'>
             <div className='mr-6  border-b-4 border-brand-yellow'>
-                <h1 className='font-Kanit text-[60px] text-white font-semibold uppercase'> Make your own story <br/>
+                <h1 className='font-Kanit md:text-[60px] lg:text-[60px] text-[20px] text-white font-semibold uppercase'> Make your own story <br/>
                 <span className='text-[75px] text-white'>IN <span className='bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent'>DEXBATTLE</span></span></h1>
 
-                <div class="flex justify-start mt-10 mb-[60px]">
+                <div class="md:flex justify-start mt-10 mb-[60px]">
             <a href={social.googlePlayStore}><div class="flex items-center border rounded-lg px-4 py-2 w-52 mx-2">
                     <img src="https://cdn-icons-png.flaticon.com/512/888/888857.png" class="w-7 md:w-8"/>
                     <div class="text-left ml-3">
@@ -150,9 +150,9 @@ useEffect(() => {
        
         </div>
         
-        <div data-aos ="fade-up"className='flex flex-row mx-16 justify-between  bg-gray-700/40 backdrop-blur-sm rounded-lg items-center'>
+        <div data-aos ="fade-up"className='md:flex md:flex-row md:mx-16 mx:8 justify-between  bg-gray-700/40 backdrop-blur-sm rounded-lg items-center'>
           <div className='flex flex-col my-4 w-[70%] mx-10'>
-            <h1 data-aos="fade-right" className='text-5xl font-Kanit text-white tracking-wide'>What is DexBattale?</h1>
+            <h1 data-aos="fade-right" className='md:text-5xl text-3xl font-Kanit text-white tracking-wide'>What is DexBattale?</h1>
             <h1 data-aos="fade-right" className='text-[18px] font-Kanit text-gray-400 text-justify mt-6'>
             Welcome to the ever-evolving Dex battle universe! Hone your shooting skills, compete in tournaments, and complete missions with your
 Clan to earn NFTs and coveted rewards. Collect weapons, and so much more items. But most importantly, have fun and work together
