@@ -8,9 +8,6 @@ const NFTcontract = require('../artifacts/contracts/DexBattle.sol/DexBattle.json
 const nftContract = new web3.eth.Contract(NFTcontract.abi, config.nftContract)
 
 
-const TokenContract = require('../artifacts/contracts/DexCoin.sol/DexCoin.json')
-const tokenContract = new web3.eth.Contract(TokenContract.abi , config.tokenContract)
-
 
 //Get supply Amounts
 export const getMaxLeaderSupply = async () => {
@@ -181,5 +178,4 @@ export const doMint = async (cost, id) => {
   
 
  
-
 

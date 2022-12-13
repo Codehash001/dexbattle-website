@@ -149,7 +149,7 @@ return (
             </div>
             <div class="w-full">
               <h4 class=" mb-1 text-xl font-bold">Email Address</h4>
-              <p class=" text-base">info@yourdomain.com</p>
+              <p class=" text-base">{social.email}</p>
             </div>
           </div>
         </div>
